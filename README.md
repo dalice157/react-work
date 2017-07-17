@@ -5,12 +5,14 @@
 ## ES6
 - 圓括及花括的差別：圓括會return，花括不會return
 	- ex:如下
-> const yy = y =>(
-> 	y + 1
-> );
-> const zz = z => {
-> 	z + 1
-> };
+````
+const yy = y =>(
+	y + 1
+);
+const zz = z => {
+	z + 1
+};
+````
 - class是假的，當function在用，無法封裝自己，必需要用bind的方式去呼叫，原型物件的語法糖
 
 ## React
