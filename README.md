@@ -4,8 +4,8 @@
 
 ## ES6
 - 圓括及花括的差別：圓括會return，花括不會return
-	- ex:如下
 ````
+ex:如下
 const yy = y =>(
 	y + 1
 );
